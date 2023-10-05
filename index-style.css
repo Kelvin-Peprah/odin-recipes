@@ -1,10 +1,20 @@
+h1 {
+    text-align: center;
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
 }
+.container-2 {
+    margin: 7px;
+    width: 364px;
+    height: 350px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
 
-.header {
-    display: flex;
-    flex-direction: 1fr;
+h3 {
+    margin-top: 2px;
+    text-align: center;
 }
