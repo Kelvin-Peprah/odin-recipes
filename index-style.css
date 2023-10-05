@@ -5,6 +5,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 8px;
 }
 .container-2 {
     margin: 7px;
