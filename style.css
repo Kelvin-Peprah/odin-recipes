@@ -3,17 +3,23 @@ h1 {
 }
 .container {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
 
 }
 .container-2 {
     margin: 7px;
     border: 2px solid gray;
+    border-bottom: none;
     border-radius: 5px;
 }
 
 h3 {
     margin-top: 2px;
     text-align: center;
+}
+
+img {
+    width: 300px;
+    border-radius: 0 0 15px 15px;
 }
