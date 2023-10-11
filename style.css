@@ -4,11 +4,11 @@ h1 {
 .container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 .container-2 {
-    background-color: rgb(227, 253, 253);
+    background-color: rgb(236, 249, 252);
     margin: 7px;
     border: none;
     border-bottom: none;
